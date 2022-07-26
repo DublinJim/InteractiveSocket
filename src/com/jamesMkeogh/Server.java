@@ -27,6 +27,25 @@ public class Server {
                 printWriter.println("quiting");
                 break;
             }
+            switch (incomingCommand)
+            {
+                case "n":
+                    printWriter.println("Player goes North");
+                    break;
+                case "e":
+                    printWriter.println("Player goes East");
+                    break;
+                case "w":
+                    printWriter.println("Player goes West");
+                    break;
+                case "s":
+                    printWriter.println("Player goes South");
+                    break;
+                default:
+
+                    printWriter.println("Not a clear direction");
+                    break;
+            }
             printWriter.println("received");
         }
 

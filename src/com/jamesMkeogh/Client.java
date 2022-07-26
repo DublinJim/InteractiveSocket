@@ -23,6 +23,8 @@ public class Client {
             String command = keyboard.readLine();
             if (Objects.equals(command, "quit"))
                 break;
+
+
             out.println(command);
             String response = bufferedReader.readLine();
             System.out.println("[SERVER] Response...."+response);
