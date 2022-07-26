@@ -46,7 +46,7 @@ public class Server {
                     printWriter.println("Not a clear direction");
                     break;
             }
-            printWriter.println("received");
+
         }
 
         serverSocket.close();
